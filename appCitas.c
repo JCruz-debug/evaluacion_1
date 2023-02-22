@@ -1,13 +1,17 @@
 #include <stdio.h>
 
+//23 de febrero de 2023
+//Cruz LÃ³pez Juan Manuel
+//VersiÃ³n
+
 int main() {
     int porcentajeObtenido = 0;
     char respuesta;
 
-    printf("¡¡Bienvenido a nuestra app de citas!! Para poder emparejar con esta persona, responde las siguientes preguntas:\n");
+    printf("Â¡Â¡Bienvenido a nuestra app de citas!! Para poder emparejar con esta persona, responde las siguientes preguntas:\n");
 
     // Pregunta 1
-    printf("\n1.- ¿Esta persona te atrae fisicamente?\n");
+    printf("\n1.- Â¿Esta persona te atrae fisicamente?\n");
     printf("A. Si\nB. No\n");
     scanf(" %c", &respuesta);
 
@@ -16,11 +20,11 @@ int main() {
         printf("\nOh, tal vez cuando la conozcas cambies de opinion.\n");
     } else {
         porcentajeObtenido -= 0;
-        printf("\nPerfecto, veamos si te gustan más cosas.\n");
+        printf("\nPerfecto, veamos si te gustan mÃ¡s cosas.\n");
     }
 
     // Pregunta 2
-    printf("\n2.- ¿Te agrada su forma de vestir?\n");
+    printf("\n2.- Â¿Te agrada su forma de vestir?\n");
     printf("A. Si\nB. No\n");
     scanf(" %c", &respuesta);
 
@@ -29,11 +33,11 @@ int main() {
         printf("\nGenial! .\n");
     } else {
         porcentajeObtenido -= 0;
-        printf("\nTal vez sea un estilo que nunca habías visto.\n");
+        printf("\nTal vez sea un estilo que nunca habÃ­as visto.\n");
     }
 
     // Pregunta 3
-    printf("\n3.- ¿Comparten gustos musicales?\n");
+    printf("\n3.- Â¿Comparten gustos musicales?\n");
     printf("A. Si\nB. No\n");
     scanf(" %c", &respuesta);
 
@@ -46,7 +50,7 @@ int main() {
     }
 
 	 // Pregunta 4
-    printf("\n4.- ¿Estarias dispuesto a participar junto a esa persona en sus actividades favoritas?\n");
+    printf("\n4.- Â¿Estarias dispuesto a participar junto a esa persona en sus actividades favoritas?\n");
     printf("A. Si\nB. No\n");
     scanf(" %c", &respuesta);
 
@@ -59,7 +63,7 @@ int main() {
     }
 	
  // Pregunta 5
-    printf("\n5.- ¿Compartes al menos 2 hobbies con esta persona?\n");
+    printf("\n5.- Â¿Compartes al menos 2 hobbies con esta persona?\n");
     printf("A. Si\nB. No\n");
     scanf(" %c", &respuesta);
 
@@ -72,7 +76,7 @@ int main() {
     }
     
      // Pregunta 6
-    printf("\n6.- ¿Tus ideas concuerdan con las de esta persona?\n");
+    printf("\n6.- Â¿Tus ideas concuerdan con las de esta persona?\n");
     printf("A. Si\nB. No\n");
     scanf(" %c", &respuesta);
 
@@ -85,7 +89,7 @@ int main() {
     }
 
  // Pregunta 7
-    printf("\n7.- ¿Su equipo deportivo favorito es rival de tu equipo favorito?\n");
+    printf("\n7.- Â¿Su equipo deportivo favorito es rival de tu equipo favorito?\n");
     printf("A. Si\nB. No\n");
     scanf(" %c", &respuesta);
 
@@ -98,7 +102,7 @@ int main() {
     }
     
      // Pregunta 8
-    printf("\n8.- ¿Su sabor de helado favorito es el mismo que el tuyo?\n");
+    printf("\n8.- Â¿Su sabor de helado favorito es el mismo que el tuyo?\n");
     printf("A. Si\nB. No\n");
     scanf(" %c", &respuesta);
 
@@ -111,7 +115,7 @@ int main() {
     }
     
      // Pregunta 9
-    printf("\n9.- ¿Le presentarías a tu familia sin temer lo que opinen de esta persona?\n");
+    printf("\n9.- Â¿Le presentarÃ­as a tu familia sin temer lo que opinen de esta persona?\n");
     printf("A. Si\nB. No\n");
     scanf(" %c", &respuesta);
 
@@ -124,7 +128,7 @@ int main() {
     }
     
      // Pregunta 10
-    printf("\n10.- ¿Estás dispuesto a conocer y respetar a esta persona, aunque no sea como tú esperabas?\n");
+    printf("\n10.- Â¿EstÃ¡s dispuesto a conocer y respetar a esta persona, aunque no sea como tÃº esperabas?\n");
     printf("A. Si\nB. No\n");
     scanf(" %c", &respuesta);
 
